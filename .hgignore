@@ -7,4 +7,5 @@ syntax: glob
 *.org
 
 build/
+cs200.css
 
