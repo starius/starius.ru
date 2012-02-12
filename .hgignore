@@ -1,0 +1,10 @@
+syntax: glob
+*.html
+
+*.swp
+
+*.orig
+*.org
+
+build/
+

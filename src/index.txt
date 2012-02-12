@@ -1,0 +1,9 @@
+restindex
+    crumb: home
+    format: rest
+    page-title: Homepage: Starius
+    encoding: utf-8
+    output-encoding: None
+/restindex
+
+
