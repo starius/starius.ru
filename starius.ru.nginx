@@ -1,0 +1,34 @@
+server {
+
+    listen   80;
+
+    server_name  .starius.ru;
+
+    access_log  /var/log/nginx/starius.ru.access.log;
+    error_log  /var/log/nginx/starius.ru.error.log;
+
+    location ~ /wt-classes/examples/.*(swfstore.swf)$ {
+        alias /usr/share/javascript/yui/swfstore/$1;
+    }
+
+    location ~ /wt-classes/examples/.*(storage-whitelist.xml)$ {
+        return 404;
+    }
+
+    location /wt-classes/examples/resources/ {
+        alias /usr/share/Wt/resources/;
+    }
+
+    location /wt-classes/examples/ {
+        proxy_pass          http://localhost:50396/;
+        proxy_redirect      default;
+        proxy_set_header Client-IP $remote_addr;
+    }
+
+    location / {
+        root   /home/starius/starius.ru/;
+        index  index.html index.htm;
+        autoindex on;
+    }
+}
+
