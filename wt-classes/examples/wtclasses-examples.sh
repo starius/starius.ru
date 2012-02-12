@@ -24,7 +24,8 @@ chown www-data:www-data `dirname $PIDFILE`
 
 wtclasses_examples_start () {
     start-stop-daemon --start --quiet --background --pidfile $PIDFILE \
-    --chuid www-data:www-data --exec $APP -- --docroot /usr/share/Wt/ \
+    --chuid www-data:www-data --exec $APP -- \
+    --docroot /usr/share/Wt/ --approot /usr/share/Wt/Wc/ \
     -p $PIDFILE --http-port 50396 --http-address 127.0.0.1 || true
 }
 
