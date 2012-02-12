@@ -10,3 +10,5 @@ https://bitbucket.org/starius/
 
 `wt-classes <wt-classes/>`_.
 
+`FBB notes <fbb/>`_.
+
