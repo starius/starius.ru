@@ -29,6 +29,7 @@ server {
         root   /home/starius/starius.ru/;
         index  index.html index.htm;
         autoindex on;
+        charset utf-8;
     }
 }
 
