@@ -30,6 +30,7 @@
         #
         if pagename == 'index.html':
             print '<div id="leftnav">'
+            print '<img src="<% path_to_root %>logo.png" alt="Logo" ><br>'
             print_details(default_section, page_title='Documents',
                 subsection_title='Folders')
             print '</div>'
