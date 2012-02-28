@@ -47,8 +47,9 @@ case "$1" in
         ;;
     restart|force-reload|reload)
         echo -n "Restarting $DESC: "
-        wtclasses_examples_start
         wtclasses_examples_stop
+        sleep 1
+        wtclasses_examples_start
         echo "$NAME."
         ;;
     status)
