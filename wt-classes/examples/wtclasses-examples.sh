@@ -22,7 +22,7 @@ set -e
 mkdir -p `dirname $PIDFILE`
 chown www-data:www-data `dirname $PIDFILE`
 
-wtclasses_examples_start () {
+program_start () {
     start-stop-daemon --start --quiet --background --pidfile $PIDFILE \
     --chuid www-data:www-data --exec $APP -- \
     --docroot /usr/share/Wt/ --approot /usr/share/Wt/Wc/ \
@@ -30,26 +30,26 @@ wtclasses_examples_start () {
 }
 
 
-wtclasses_examples_stop () {
+program_stop () {
     start-stop-daemon --stop --quiet --pidfile $PIDFILE --exec $APP || true
 }
 
 case "$1" in
     start)
         echo -n "Starting $DESC: "
-        wtclasses_examples_start
+        program_start
         echo "$NAME."
         ;;
     stop)
         echo -n "Stopping $DESC: "
-        wtclasses_examples_stop
+        program_stop
         echo "$NAME."
         ;;
     restart|force-reload|reload)
         echo -n "Restarting $DESC: "
-        wtclasses_examples_stop
+        program_stop
         sleep 1
-        wtclasses_examples_start
+        program_start
         echo "$NAME."
         ;;
     status)
