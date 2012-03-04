@@ -16,6 +16,10 @@ PIDFILE=/var/run/wtclasses-examples/all.pid
 APP=/usr/share/doc/libwtclasses/examples/all.wt
 USER=www-data
 GROUP=www-data
+DOCROOT=/usr/share/Wt/
+APPROOT=/usr/share/Wt/Wc/
+PORT=50396
+ADDRESS=127.0.0.1
 
 set -e
 
@@ -27,8 +31,8 @@ chown $USER:$GROUP `dirname $PIDFILE`
 program_start () {
     start-stop-daemon --start --quiet --background --pidfile $PIDFILE \
     --chuid $USER:$GROUP --exec $APP -- \
-    --docroot /usr/share/Wt/ --approot /usr/share/Wt/Wc/ \
-    -p $PIDFILE --http-port 50396 --http-address 127.0.0.1 || true
+    --docroot $DOCROOT --approot $APPROOT \
+    -p $PIDFILE --http-port $PORT --http-address $ADDRESS || true
 }
 
 
