@@ -2,7 +2,7 @@ server {
 
     listen   80;
 
-    server_name  .starius.ru;
+    server_name  78.47.229.107 .starius.ru;
 
     access_log  /var/log/nginx/starius.ru.access.log;
     error_log  /var/log/nginx/starius.ru.error.log;
