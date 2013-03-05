@@ -12,3 +12,8 @@ https://bitbucket.org/starius/
 
 `FBB notes <fbb/>`_.
 
+bitcoin address `16Sko1rN9U2kCcV4N95Jm1Mk4FFnfB6vRJ
+<http://blockchain.info/address/16Sko1rN9U2kCcV4N95Jm1Mk4FFnfB6vRJ>`_.
+
+pgp key: `A6C2B6CE <A6C2B6CE.asc>`_.
+
