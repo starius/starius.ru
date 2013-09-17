@@ -12,6 +12,8 @@ https://bitbucket.org/starius/
 
 `wnoref <wnoref/>`_.
 
+`PlowBackup <https://bitbucket.org/starius/config/src/tip/bin/plowbackup.py>`_.
+
 `FBB notes <fbb/>`_.
 
 `TorChat <https://github.com/prof7bit/TorChat/downloads>`_ ID: puwjcszo4pgbxa6m.
