@@ -10,7 +10,11 @@ https://bitbucket.org/starius/
 
 `wt-classes <wt-classes/>`_.
 
+`wnoref <wnoref/>`_.
+
 `FBB notes <fbb/>`_.
+
+TorChat ID: nflmcquh4kvr3das.
 
 bitcoin address `16Sko1rN9U2kCcV4N95Jm1Mk4FFnfB6vRJ
 <http://blockchain.info/address/16Sko1rN9U2kCcV4N95Jm1Mk4FFnfB6vRJ>`_.
