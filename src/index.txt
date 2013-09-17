@@ -14,7 +14,7 @@ https://bitbucket.org/starius/
 
 `FBB notes <fbb/>`_.
 
-`TorChat <https://github.com/prof7bit/TorChat/downloads>`_ ID: nflmcquh4kvr3das.
+`TorChat <https://github.com/prof7bit/TorChat/downloads>`_ ID: puwjcszo4pgbxa6m.
 
 bitcoin address `16Sko1rN9U2kCcV4N95Jm1Mk4FFnfB6vRJ
 <http://blockchain.info/address/16Sko1rN9U2kCcV4N95Jm1Mk4FFnfB6vRJ>`_.
