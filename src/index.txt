@@ -23,3 +23,5 @@ bitcoin address `16Sko1rN9U2kCcV4N95Jm1Mk4FFnfB6vRJ
 
 pgp key: `A6C2B6CE <A6C2B6CE.asc>`_.
 
+Join `OpenArena <http://openarena.ws>`_ server: /connect starius.ru
+
