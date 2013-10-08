@@ -18,8 +18,8 @@ https://bitbucket.org/starius/
 
 `TorChat <https://github.com/prof7bit/TorChat/downloads>`_ ID: puwjcszo4pgbxa6m.
 
-bitcoin address `16Sko1rN9U2kCcV4N95Jm1Mk4FFnfB6vRJ
-<http://blockchain.info/address/16Sko1rN9U2kCcV4N95Jm1Mk4FFnfB6vRJ>`_.
+bitcoin address `1CsfihQGy5kg3nnTJLzfmNDiPGqiQgdeMz
+<http://blockchain.info/address/1CsfihQGy5kg3nnTJLzfmNDiPGqiQgdeMz>`_.
 
 pgp key: `A6C2B6CE <A6C2B6CE.asc>`_.
 
